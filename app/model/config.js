@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 module.exports = (app) => {
     const object = {};
 
-    const uri = 'mongodb://localhost:27017/startup';
+    const uri = 'mongodb+srv://magnorion:pass123@cluster-kxmvf.mongodb.net/startup?retryWrites=true';
 
     mongoose.set('useFindAndModify', false);
     mongoose.connect(uri, { useNewUrlParser: true });
