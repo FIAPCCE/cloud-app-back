@@ -5,7 +5,7 @@ const express = require('express'),
     app = express();
 
 
-var allowedOrigins = ['https://startup-app-front.herokuapp.com/', 'http://localhost:5000'];
+var allowedOrigins = ['https://startup-app-front.herokuapp.com', 'http://localhost:5000'];
 
 app.use(cors({
 
